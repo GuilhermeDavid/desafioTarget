@@ -14,9 +14,9 @@ def main():
 
     # Verifica se o número pertence à sequência de Fibonacci
     if pertence_fibonacci(num):
-        print("O número {} pertence à sequência de Fibonacci.".format(num))
+        print(f"O número {num} pertence à sequência de Fibonacci.")
     else:
-        print("O número {} não pertence à sequência de Fibonacci.".format(num))
+        print(f"O número {num} não pertence à sequência de Fibonacci.")
         
 
 if (__name__ == "__main__"):
