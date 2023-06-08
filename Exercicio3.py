@@ -19,9 +19,9 @@ def main():
     acimaMedia = len([f for f in faturamento if f > media_mensal])
 
     # Imprimir os resultados
-    print("Menor faturamento: R$ {:.2f}".format(menor))
-    print("Maior faturamento: R$ {:.2f}".format(maior))
-    print("Número de dias com faturamento acima da média: {}".format(acimaMedia))
+    print(f"Menor faturamento: R$ {menor:.2f}")
+    print(f"Maior faturamento: R$ {maior:.2f}")
+    print(f"Número de dias com faturamento acima da média: {acimaMedia}")
     
 if (__name__ == "__main__"):
     main()
