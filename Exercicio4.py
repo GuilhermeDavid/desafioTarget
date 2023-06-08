@@ -10,7 +10,7 @@ def main():
     # Cálculo da porcentagem de representação de cada estado
     for estado, valor in faturamento.items():
         porcentagem = (valor / total) * 100
-        print("{} - {:.2f}%".format(estado, porcentagem))
+        print(f"{estado} - {porcentagem:.2f}%")
 
 
 if (__name__ == "__main__"):
